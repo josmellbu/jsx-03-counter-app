@@ -1,0 +1,15 @@
+Yarn dev
+
+
+TEST
+
+yarn add --dev jest
+yarn add -D @types/jest
+
+Dentro del package.json, en la parte de scripts agregar la siguiente linea:
+
+"test": "jest --watchAll"
+
+Para ver los test ejecutar el siguiente script
+
+yarn test
